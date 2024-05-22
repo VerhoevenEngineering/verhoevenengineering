@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     /* background-color: url('background.avif'); */
-     background-color: #e6e5da; 
+     background-color: #e5e5e5; 
        background-size: cover; /* Cover the entire background */
             background-repeat: no-repeat; /* Do not repeat the background image */
             background-attachment: fixed; /* Keep the background fixed while scrolling */
@@ -112,6 +112,7 @@ a {
     height: auto; /* Maintain aspect ratio */
     opacity: 100%;
     margin: 6px;
+    filter: grayscale(1);
 }
 
 .amerikaanseprojectie {
@@ -136,7 +137,7 @@ a {
     .logo {
         margin-top: 120px;
         margin-bottom: -50px;
-        margin-left: -15px;
+        
     }
 } 
 
@@ -162,8 +163,13 @@ a {
 }
 
 .menuItem {
-     background-color: #CFCEC4;
+     background-color: #c9c9c9
+;
      width: 12.5vw;
+}
+
+#topTable, #leftTable, #rightTable, #bottomTable, #rechterOnderHoek {
+    background-color: #e0e0e0;
 }
 
 .menuItem:hover {
