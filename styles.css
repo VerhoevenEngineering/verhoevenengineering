@@ -102,11 +102,7 @@ a {
 }
 
 
-.logo {
-    width: 50vh; /* Set the width of the specific image */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -18vh;
-}
+
 
 .logoBottom   {
     width: 140px; /* Set the width of the specific image */
@@ -136,10 +132,10 @@ a {
         display: none;
     }
     .logo {
-        position: fixed;
-        margin-top: -80px;
-        margin-bottom: 0px;
-        margin-left: -20px;
+        width: 80vw;
+        margin-top: -60px;
+        margin-bottom: -50px;
+        margin-left: -10px;
         }
     .only-pc {
         display: none;
@@ -155,6 +151,11 @@ a {
      {
         display: none;
      }
+     .logo {
+    width: 50vh; /* Set the width of the specific image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -18vh;
+}
 } 
 
 @font-face {
