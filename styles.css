@@ -102,8 +102,6 @@ a {
 }
 
 
-
-
 .logoBottom   {
     width: 140px; /* Set the width of the specific image */
     height: auto; /* Maintain aspect ratio */
@@ -153,7 +151,6 @@ a {
      }
      .logo {
     width: 50vh; /* Set the width of the specific image */
-    height: auto; /* Maintain aspect ratio */
     margin-top: -18vh;
 }
 } 
@@ -189,9 +186,6 @@ a {
      /* Change the background color on hover */
 }
 
-.blue {
-    color: #0b5394;
-}
 
 a:hover {
     color: #0b5394; /* Change the color on hover */
