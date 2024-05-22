@@ -12,7 +12,7 @@ body, html {
 
 #content {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -102,9 +102,10 @@ a {
 }
 
 
-.logo   {
+.logo {
     width: 50vh; /* Set the width of the specific image */
     height: auto; /* Maintain aspect ratio */
+    margin-top: -18vh;
 }
 
 .logoBottom   {
@@ -135,16 +136,25 @@ a {
         display: none;
     }
     .logo {
-        margin-top: 120px;
-        margin-bottom: -50px;
-        
+        position: fixed;
+        margin-top: -80px;
+        margin-bottom: 0px;
+        margin-left: -20px;
+        }
+    .only-pc {
+        display: none;
     }
 } 
+
+
 
 @media (min-width: 768px) {
     #navBarMobile {
         display: none;
-    }
+    } .only-mobile
+     {
+        display: none;
+     }
 } 
 
 @font-face {
@@ -173,14 +183,17 @@ a {
 }
 
 .menuItem:hover {
-    background-color: #3c3aa9;
+    background-color: #0b5394;
     cursor: pointer;
      /* Change the background color on hover */
 }
 
+.blue {
+    color: #0b5394;
+}
 
 a:hover {
-    color: #00008B; /* Change the color on hover */
+    color: #0b5394; /* Change the color on hover */
 }
 
 .klimrobot {
